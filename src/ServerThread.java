@@ -139,8 +139,6 @@ public class ServerThread implements Runnable {
         // Getting the command and the arguments
         Commands cmd = Commands.valueOf(commandArray[0]);
         String args = commandArray[1];
-        // Printing the command and the arguments to the console with the thread id
-        System.out.println("(R" + thread.getId() + ")[" + cmd + "] " + args);
         // Processing the message
         ProcessMessage(cmd, args);
     }

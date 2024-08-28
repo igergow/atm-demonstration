@@ -11,15 +11,6 @@ import java.util.concurrent.Executors;
  */
 public class Server {
     /**
-     * Scanner for user input
-     */
-    public static Scanner scanner;
-    /**
-     * PrintStream for server output
-     */
-    public static PrintStream writer;
-
-    /**
      * Main method for the server
      * @param args Command line arguments
      * @throws IOException If there is an error with the socket

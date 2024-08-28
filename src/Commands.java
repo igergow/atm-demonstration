@@ -11,5 +11,6 @@ public enum Commands {
     WITHDRAW,
     DEPOSIT,
     GET_BALANCE, 
-    ERROR
+    ERROR,
+    EXIT
 }
